@@ -1,6 +1,7 @@
 graphics_Intel_framebuffers
 ============
 OS X Intel HD Graphics
+
 OS X HD4600+/HD4000/HD3000 Framebuffer Edits
 Find HD4600+/HD4000 HDMI port-number (HD3000 similar)
 Match motherboard connector to framebuffer connector
@@ -58,7 +59,8 @@ Installation
      3. No errors, restart
 	1. Terminal Report:
 	Last login: Mon Feb 17 18:10:57 on console
-	Downloads/HD4600+\:Azul\ Edit/graphics_intel_hd5k-azul-			  a-90_patch.command ; exit;
+	Downloads/HD4600+\:Azul\ Edit/graphics_intel_hd5k-azul-a-90
+	  _patch.command ; exit;
  	graphics_intel_hd5k_azul-a-90_patch.command_v2.0
 	Copy S/L/E/AppleIntelFramebufferAzul.kext to Desktop.
 	Password:
