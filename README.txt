@@ -10,7 +10,7 @@ Enable multiple display support
 Requirements
 1. Desktop only
 2. Mavericks 10.9 or newer
-3. Intel HD Graphics/kext/framebuffer
+3. Intel HD Graphics/kext/property/framebuffer
    1. HD4600+/Azul/AAPL,ig-plartform-id/03 00 22 0d
    2. HD4000/Capri/AAPL,ig-plartform-id/0a 00 66 01
    3. HD3000/SNB/AAPL,snb-platform-id/10 00 03 00
