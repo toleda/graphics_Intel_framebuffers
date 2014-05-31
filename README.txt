@@ -16,12 +16,14 @@ Requirements
    3. HD3000/SNB/AAPL,snb-platform-id/10 00 03 00
 4. Framebuffer Injection
    1. HDMI audio dsdt/ssdt
-   2. Chimera (Azul/Capri/SNB)
-      1. IGPEnabler=Yes
-   3. Chameleon
+   2. Chimera/org.chameleon.Boot.plist
+      1. IGPEnabler=Yes (Azul/Capri/SNB)
+   3. Chameleon/org.chameleon.Boot.plist
       1. IntelAzulFB/10
       2. IntelCapriFB/10
-   4. Clover TBA
+   4. Clover/config.plist
+      1. Azul: Graphics/ig-platform-id/0x0300220D
+      2. Capri: Graphics/ig-platform-id/0x0a006601
 
 More Information
 1. HD4600+/HD4000/HD3000 Framebuffer Edits.pdf
@@ -35,6 +37,7 @@ b SNB/Capri/Azul|HDMI/DVI*______|DP or ND_______|HDMI/DVI*______|
 c Azul		|HDMI/DVI_______|HDMI/DVI_______|DP or ND_______|
 d Azul		|HDMI/DVI_______|HDMI/DVI_______|HDMI/DVI_______|
 e Azul		|DP or ND_______|HDMI/DVI_______|DP or ND_______|
+f Azul		|HDMI/DVI_______|DP or ND_______|DP or ND_______|
 DVI* - Azul only, HDMI - SNB/Capri/Azul, DVI - SNB/Capri (NA)
 
 Framebuffer Edit Scripts
@@ -44,6 +47,7 @@ Framebuffer Edit Scripts
 	c - graphics_intel_hd5k-azul-c-90_patch.command
 	d - graphics_intel_hd5k-azul-d-90_patch.command
 	e - graphics_intel_hd5k-azul-e-90_patch.command
+	f - graphics_intel_hd5k-azul-f-90_patch.command
    2. HD4000/Capri
 	a - graphics_intel_hd4k-capri-a-90_patch.command
 	b - graphics_intel_hd4k-capri-b-90_patch.command
