@@ -38,6 +38,7 @@ c Azul		|HDMI/DVI_______|HDMI/DVI_______|DP or ND_______|
 d Azul		|HDMI/DVI_______|HDMI/DVI_______|HDMI/DVI_______|
 e Azul		|DP or ND_______|HDMI/DVI_______|DP or ND_______|
 f Azul		|HDMI/DVI_______|DP or ND_______|DP or ND_______|
+g Azul		|DP or ND_______|DP or ND_______|HDMI/DVI_______|
 DVI* - Azul only, HDMI - SNB/Capri/Azul, DVI - SNB/Capri (NA)
 
 Framebuffer Edit Scripts
@@ -48,6 +49,7 @@ Framebuffer Edit Scripts
 	d - graphics_intel_hd5k-azul-d-90_patch.command
 	e - graphics_intel_hd5k-azul-e-90_patch.command
 	f - graphics_intel_hd5k-azul-f-90_patch.command
+	g - graphics_intel_hd5k-azul-g-90_patch.command
    2. HD4000/Capri
 	a - graphics_intel_hd4k-capri-a-90_patch.command
 	b - graphics_intel_hd4k-capri-b-90_patch.command
